@@ -7,10 +7,16 @@
 body {
     font-size: 62.5%;
     font-family: Arial, sans-serif;
+    color: #ffffff;
 }
 
 h1 {
     font-variant: all-small-caps;
+}
+
+a {
+    text-decoration-line: none;
+    color: #ffffff;
 }
 
 /* Block de Contenues */
@@ -19,12 +25,12 @@ h1 {
     border: solid #cfcfcf 1rem;
     height: 55rem;
     width: 81%;
+    color: #ffffff;
 }
 
 /* Block */
 .block1, .blockImage {
     height: 100%;
-    color: #ffffff;
 }
 
 .block1 {
@@ -41,35 +47,6 @@ h1 {
     width: 40%;
 }
 
-/*
-    .case1Text {
-        position: relative;
-        top: 20%;
-        left: 10%;
-    }
-
-    .case1Bouton1 {
-        border: solid #ffffff 3px;
-        padding: 10px 20px;
-        font-variant: all-small-caps;
-        font-weight: bold;
-        position: absolute;
-        top: 70%;
-        left: 10%;
-    }
-
-    .case1Bouton2 {
-         border: solid #ffffff 3px;
-         padding: 10px 20px;
-         font-variant: all-small-caps;
-         font-weight: bold;
-         position: absolute;
-         top: 70%;
-         left: 30%;
-     }
-
-*/
-
 /* Commun à toutes cases ou Lignes */
 .case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
     display: inline-block;
@@ -78,6 +55,7 @@ h1 {
     background-size: 100%;
     margin-right: -0.1rem;
     margin-left: -0.1rem;
+    padding: 8%;
 }
 
 .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
@@ -108,6 +86,21 @@ h1 {
     width: 66.6%;
 }
 
+.case1Text, .case1Bouton1, .case1Bouton2 {
+    font-size: 1.3rem;
+}
+
+.case1Bouton1, .case1Bouton2 {
+    border: solid #ffffff 3px;
+    margin-top: 5%;
+    margin-right: 13%;
+    padding: 2%;
+    font-variant: all-small-caps;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .case2 {
     background: #ff9e00;
 }
@@ -126,16 +119,12 @@ h1 {
 }
 
 /* Ligne 3 */
-.case6 {
+.case6, .case8 {
     background: #f86925;
 }
 
 .case7 {
     background: #1e8bc4;
-}
-
-.case8 {
-    background: #f86925;
 }
 
 /* Autre
