@@ -23,8 +23,8 @@ a {
 .contenue {
     margin: auto;
     border: solid #cfcfcf 1rem;
-    height: 45rem;
-    width: 80%;
+    height: 49rem;
+    width: 100%;
     color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ a {
     background-size: 100%;
     margin-right: -0.1rem;
     margin-left: -0.1rem;
-    padding: 8%;
+    padding-top: 3rem;
 }
 
 .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
@@ -84,6 +84,7 @@ a {
 .case1 {
     background: #35bc7a;
     width: 66.6%;
+    padding-left: 3rem;
 }
 
 .case1Text, .case1Bouton1, .case1Bouton2 {
@@ -145,6 +146,29 @@ a:hover {
 }
 
 /* Mobile */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 900px) {
+    .contenue {
+        border: none;
+    }
+
+    .block1 {
+        width: 100%;
+    }
+
+    .case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
+        margin-right: -0.1rem;
+        margin-left: -0.1rem;
+    }
+
+    .blockImage {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
+        width: 100%;
+        display: block;
+    }
 
 }
