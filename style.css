@@ -21,10 +21,10 @@ a {
 
 /* Block de Contenues */
 .contenue {
-    margin: auto auto;
+    margin: auto;
     border: solid #cfcfcf 1rem;
-    height: 55rem;
-    width: 81%;
+    height: 45rem;
+    width: 80%;
     color: #ffffff;
 }
 
@@ -127,19 +127,24 @@ a {
     background: #1e8bc4;
 }
 
-/* Autre
+/* Autre */
+.case2:hover, .case3:hover, .case4:hover, .case5:hover, .case6:hover, .case7:hover, .case8:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
 
-    .case2:hover, .case3:hover, .case4:hover, .case5:hover, .case6:hover, .case7:hover, .case8:hover {
-        color: black;
-        transition-duration: 0.5s;
-    }
+.case1Bouton1:hover, .case1Bouton2:hover {
+    background: #ffffff;
+    border: solid #ffffff 3px;
+    border-radius: 60px;
+    transition-duration: 0.5s;
+}
 
-    .case1Bouton1:hover, .case1Bouton2:hover {
-        background: #ffffff;
-        color: #35bc7a;
-        border: solid #ffffff 3px;
-        border-radius: 60px;
-        transition-duration: 0.5s;
-    }
+a:hover {
+    color: #35bc7a;
+}
 
-*/
+/* Mobile */
+@media screen and (max-width: 350px) {
+
+}
