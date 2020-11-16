@@ -166,9 +166,16 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
-    .case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
-        width: 100%;
-        display: block;
+    .case1Text {
+        font-size: 1rem;
+    }
+
+    a, .case1Bouton1, .case1Bouton2 {
+        visibility: hidden;
+    }
+
+    .titreIcone, .icone {
+        font-size: 1.2rem;
     }
 
 }
